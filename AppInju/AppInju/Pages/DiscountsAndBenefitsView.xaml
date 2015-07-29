@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tarjetaJoven.DiscountsAndBenefitsView" 
+	 xmlns:local="clr-namespace:tarjetaJoven;assembly=tarjetaJoven" Title="Descuentos y beneficios">
+ <ListView x:Name="listView"  ItemsSource="{x:Static local:DiscountsAndBenefitsView.Benefits}">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <ViewCell.View>
+            <StackLayout Orientation="Horizontal">
+
+             <StackLayout Orientation="Vertical"
+                           HorizontalOptions="StartAndExpand">
+
+                <Label Text="{Binding Name}"
+                       HorizontalOptions="FillAndExpand" />
+
+              </StackLayout>
+            </StackLayout>
+          </ViewCell.View>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>

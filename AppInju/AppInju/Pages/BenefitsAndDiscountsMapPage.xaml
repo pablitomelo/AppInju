@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+				
+x:Class="AppInju.BenefitsAndDiscountsMapPage">
+	<StackLayout VerticalOptions="FillAndExpand">
+  
+  		<StackLayout VerticalOptions="FillAndExpand">
+  			<maps:Map
+            	x:Name="MyMap"
+            	IsShowingUser="true"
+            	MapType="Street"
+        		/>
+  		</StackLayout>
+  		<StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" MinimumHeightRequest="100">
+   			 <StackLayout HorizontalOptions="StartAndExpand" BackgroundColor="Aqua" VerticalOptions="FillAndExpand">
+   			 </StackLayout>
+   			 <StackLayout HorizontalOptions="StartAndExpand" BackgroundColor="Blue" VerticalOptions="FillAndExpand">
+   			 </StackLayout>
+   			 <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="Fuchsia" VerticalOptions="FillAndExpand">
+   			 </StackLayout>
+   			 <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="Green" VerticalOptions="FillAndExpand">
+   			 </StackLayout>
+  		</StackLayout>
+	</StackLayout>
+</ContentPage>

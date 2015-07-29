@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AppInju.CardRequestPage" Title="Solicita tu tarjeta" BackgroundColor="Blue" Padding="20">
+	<ScrollView>
+		<StackLayout Orientation="Vertical" BackgroundColor="Silver" Padding="20" Spacing="20" >
+		
+			<Label Text="Solicita la Tarjeta Joven completando los siguientes datos" FontSize="12">
+			</Label>
+
+			<StackLayout  HorizontalOptions="FillAndExpand" >
+				<Entry Placeholder="Cédula" HorizontalOptions="FillAndExpand" >
+				</Entry>
+				<Entry Placeholder = "Nombres" HorizontalOptions="FillAndExpand">
+				</Entry>
+				<Entry Placeholder="Apellidos" HorizontalOptions="FillAndExpand">
+				</Entry>
+				<DatePicker HorizontalOptions="FillAndExpand">
+				</DatePicker>
+				<Picker x:Name="GenderPicker" SelectedIndex="{Binding Gender}" HorizontalOptions="FillAndExpand" Title="Sexo">
+        			<Picker.Items>
+            			<x:String>Femenino</x:String> 
+            			<x:String>Masculino</x:String>
+        			</Picker.Items>
+    			</Picker> 
+			</StackLayout>
+			<Button Text="Aceptar" BackgroundColor="Fuchsia" TextColor="White" VerticalOptions="Center" Clicked="RequestCardAcceptClicked">
+			</Button> 
+		</StackLayout>
+	</ScrollView>
+</ContentPage>
+

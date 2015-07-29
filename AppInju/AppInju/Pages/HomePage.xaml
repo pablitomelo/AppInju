@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AppInju.HomePage" Title="Bienvenido!">
+
+		<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="20" >
+
+		 <Button Text="Solicitar Tarjeta"
+		            HorizontalOptions="FillAndExpand"
+		            VerticalOptions="CenterAndExpand"
+
+		            BackgroundColor="Blue"
+		            TextColor="White"
+		            FontSize="15"
+		            Clicked="RequestCardClicked"
+		             />
+
+		 <Button Text="Activar Tarjeta"
+		            HorizontalOptions="FillAndExpand"
+		            VerticalOptions="CenterAndExpand"
+		            BackgroundColor="Blue"
+		            TextColor="White"
+		            FontSize="15"
+		             />
+
+		   <Button Text="Descuentos y beneficios"
+		            HorizontalOptions="FillAndExpand"
+		            VerticalOptions="CenterAndExpand"
+		            BackgroundColor="Blue"
+		            TextColor="White"
+		            FontSize="15"
+		            Clicked="DiscountAndBenefitsClicked"
+		             />
+
+		    <Button Text="Mapa Descuentos y beneficios"
+		            HorizontalOptions="FillAndExpand"
+		            VerticalOptions="CenterAndExpand"
+		            BackgroundColor="Blue"
+		            TextColor="White"
+		            FontSize="15"
+		            Clicked="DiscountsAndBenefitsMapClicked"
+		             />
+
+
+	   	   <Button Text="Descuentos y beneficios"
+	            HorizontalOptions="FillAndExpand"
+		            VerticalOptions="CenterAndExpand"
+		            BackgroundColor="Blue"
+		            TextColor="White"
+		            FontSize="15"
+		             />
+
+		            <Button Text="Descuentos y beneficios"
+		            HorizontalOptions="FillAndExpand"
+		            VerticalOptions="CenterAndExpand"
+		            BackgroundColor="Blue"
+		            TextColor="White"
+		            FontSize="15"
+		             />
+
+		            <Button Text="Descuentos y beneficios"
+		            HorizontalOptions="FillAndExpand"
+		            VerticalOptions="CenterAndExpand"
+		            BackgroundColor="Blue"
+		            TextColor="White"
+		            FontSize="15"
+		             />
+
+		</StackLayout>
+
+</ContentPage>
+
